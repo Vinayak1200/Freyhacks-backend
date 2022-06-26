@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    padding: 10px;
+
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+main{
+     
+    background-image:url("https://images.pexels.com/photos/2525903/pexels-photo-2525903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    position: relative;
+    max-width: 800px;
+    padding: 90px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.main h1{
+    margin: 0 0 0px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+:root{
+    --primary: rgba(150, 150, 210, 0.55);
+    --secondary: rgba(55, 66, 32, 0.67);
+}
+.section{
+    
+    
+    margin: 0;
+    margin-top: -2mm;
+    place-content: center;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url("https://img.freepik.com/free-vector/doodle-travel-background_23-2148044879.jpg?t=st=1656052175~exp=1656052775~hmac=2d5d53deba7c64cb147e84f9beca9624f97b8f02986d4db6e8b37d28714d88d5&w=740")  ;
+}
+.container {
+    width: 90%;
+    height:100%;
+   
+    padding: 25px 20px 15px 20px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    /*background: rgba(255, 251, 251, 0.169);*/
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.radio-btn{
+    margin: 0 0px;
+    text-decoration: none;
+}
+.radio-btn .btn{
+    margin: 20px 10px 20px 10px;
+    box-shadow:  none;
+}
+.radio-btn .btn::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -3px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color: black;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color: #000;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.booking-form{
+    padding: 0 20px 20px;
+}
+.booking-form-label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+input::placeholder{
+    color: white!important;
+}
+.input-grp{
+    font-size: 18px;
+    
+}
+.form-control{
+    font-size: 18px!important;
+    border-radius: 0!important;
+    color: #000!important;
+    background: transparent!important;
+    box-shadow: none!important;
+}
+
+.custom-select{
+    color: #000!important ;
+    font-size: 18px!important;
+    border: 1px solid #000!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    background: transparent!important;
+
+}
+.custom-select option{
+    color:#333;
+
+}
+.flight{
+    margin: 10px;
+    color: #000!important;
+    width: 30%;
+    padding: 5px 0;
+    font-size: 18px;
+    border: 1px solid #000!important;
+    background: transparent!important;
+}
+.button {
+    background-color: rgb(33, 28, 44);
+    color: black;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 900;
+    width: 25%;
+}
+.ticket{
+    background-color: bisque;
+    text-align: center;
+}

@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    padding: 10px;
+
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+main{
+     
+    background-image:url("https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    position: relative;
+    max-width: 800px;
+    padding: 90px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.main h1{
+    margin: 0 0 0px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.fdt{
+    position: absolute;
+    width: 475px;
+    height: 44px;
+    left: 529px;
+    top: 795px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 44px;
+
+}
+.rectangle1{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 135px;
+    top: 1090px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.rectangle2{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 532px;
+    top: 1090px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.rectangle3{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 1090px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.rectangle4{
+    position: absolute;
+    width: 477px;
+    height: 350px;
+    left: 135px;
+    top: 1560px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.rectangle5{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 532px;
+    top: 1560px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.rectangle6{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 1560px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle7{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 2090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle8{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 2090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle9{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 2090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle10{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 2590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle11{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 2590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle12{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 2590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle13{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 3090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle14{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 3090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle15{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 3090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle16{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 3590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle17{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 3590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle18{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 3590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle19{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 4090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle20{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 4090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle21{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 4090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle22{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 4590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle23{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 4590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle24{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 4590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle25{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 5090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle26{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 5090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle27{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 5090px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle28{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 128px;
+    top: 5590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle29{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 528px;
+    top: 5590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.rectangle30{
+    position: absolute;
+    width: 377px;
+    height: 350px;
+    left: 928px;
+    top: 5590px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.minirect1{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect2{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect3{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/733148/pexels-photo-733148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect4{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.unsplash.com/photo-1604999333679-b86d54738315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect5{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect6{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect7{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect8{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.unsplash.com/photo-1628859017536-c2f1d69f3c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=637&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect9{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=796&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect10{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect11{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.unsplash.com/photo-1602585190306-bed80073d66b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect12{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect13{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.unsplash.com/photo-1598270553906-e4537ca1ff88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect14{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/373290/pexels-photo-373290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect15{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect16{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://static.toiimg.com/photo/msid-89002436,width-96,height-65.cms");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect17{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/11801424/pexels-photo-11801424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect18{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/574313/pexels-photo-574313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect19{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.pexels.com/photos/10440693/pexels-photo-10440693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect20{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/3574440/pexels-photo-3574440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect21{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://cdn.theatlantic.com/media/img/photo/2020/11/photos-scenes-new-zealand/a01_153815173-1/original.jpg");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect22{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+    background: url("https://images.pexels.com/photos/962464/pexels-photo-962464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect23{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/221502/pexels-photo-221502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+}
+.minirect24{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/1628086/pexels-photo-1628086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect25{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://www.planetware.com/wpimages/2019/08/thailand-koh-samui-things-to-do-sunbathe-swim-beaches.jpg");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect26{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/5893102/pexels-photo-5893102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect27{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/0/03/Manali_City.jpg");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect28{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/73796/budapest-hungary-parliament-building-73796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect29{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/1672813/pexels-photo-1672813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+.minirect30{
+    position: absolute;
+    width: 377px;
+    height: 230px;
+    background: url("https://images.pexels.com/photos/5727513/pexels-photo-5727513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 377px 230px;
+
+}
+
+.another-rect1, .another-rect2, .another-rect3, .another-rect4, .another-rect5,
+.another-rect6, .another-rect7, .another-rect8, .another-rect9, .another-rect10,
+.another-rect11, .another-rect12, .another-rect13, .another-rect14, .another-rect15,
+.another-rect16, .another-rect17, .another-rect18, .another-rect19, .another-rect20,
+.another-rect21, .another-rect22, .another-rect23, .another-rect24, .another-rect25,
+.another-rect26, .another-rect27, .another-rect28, .another-rect29, .another-rect30{
+    position: absolute;
+    width: 230px;
+    height: 43px;
+    left: 80px;
+    top: 190px;
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+}
+.frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9,.frame10,
+.frame11, .frame12, .frame13, .frame14, .frame15, .frame16, .frame17, .frame18, .frame19,
+.frame20,.frame21, .frame22, .frame23, .frame24, .frame25, .frame26, .frame27, .frame28
+, .frame29, .frame30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 20px;
+    cursor: pointer;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 157px;
+    top: 277px;
+
+    background: #FEB51F;
+    border-radius: 74px;
+}
+.frame1:hover, .frame2:hover, .frame3:hover, .frame4:hover, .frame5:hover, .frame6:hover,
+.frame7:hover, .frame8:hover, .frame9:hover, .frame10:hover, .frame11:hover, .frame12:hover,
+.frame13:hover, .frame14:hover, .frame15:hover, .frame16:hover, .frame17:hover, .frame18:hover,
+.frame19:hover, .frame20:hover, .frame21:hover, .frame22:hover, .frame23:hover, .frame24:hover,
+.frame25:hover, .frame26:hover, .frame27:hover,.frame28:hover, .frame29:hover, .frame30:hover{
+    background-color: orangered;
+    transform: scale(1.07);
+}
+
+
+
+
+
