@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS CUSTOM-->
+    <link rel="stylesheet" href="{% static 'machhu.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="vacationplanner.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                
+
+            </ul>
+           
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <h1>Welcome to Machu Picchu!!</h1>
+            <p>
+                Machu Picchu is the site of an ancient Inca city, 
+                high in the Andes of Peru. Located at 2,430m (8,000 ft), 
+                this UNESCO World Heritage site is often referred to as "The Lost City of the Incas". 
+                It's one of the most familiar symbols of the Incan Empire and also one of the most famous and spectacular sets of ruins in the world.
+                A visit to Peru would not be complete without seeing it, but this can be very expensive and crowded.
+            </p>
+        </div>
+        
+    </main>
+    <h1 class="ticket">!!Book your Ticket!!</h1>
+    <div class="section">
+        <div class="container">
+            <!--<div class="booking-form-box">-->
+                    <div class="radio-btn">
+                        <input type="radio" class="btn" name="check" ><span>Roundtrip</span>
+                        <input type="radio" class="btn" name="check"><span>One way</span>
+                
+                    </div>
+            
+                <div class="booking-form">
+                    <label for="">Flying from</label>
+                    <input type="text" class="form-control" placeholder="airport">
+                    <label for="">Flying to</label>
+                    <input type="text" class="form-control" placeholder="airport">
+                    <div class="input-grp">
+                        <label for="">Departing</label>
+                        <input type="date" class="form-control select-date" >
+                    </div>
+                    <div class="input-grp">
+                        <label for="">Returning</label>
+                        <input type="date" class="form-control select-date" >
+                    </div>
+                    <div class="input-grp">
+                        <label for="">Number of Adults</label>
+                        <input type="number" class="form-control select-date" value="1">
+                    </div>
+                    <div class="input-grp">
+                        <label for="">Number of children</label>
+                        <input type="number" class="form-control select-date" value="0">
+                    </div>
+                    <div class="input-grp">
+                        <label for="">Travel class</label>
+                        <select name="" id="" class="custom-select">
+                            <option value="1">Economy</option>
+                            <option value="2">Business</option>
+                        </select>
+                    
+                    </div>
+                    <div class="input-grp">
+                        <button type="button" class="btn btn-primary flight">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>>
+        </div>
+    </div>
+</body>
+</html>
